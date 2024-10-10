@@ -1,0 +1,15 @@
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+>
+    <php>
+        <ini name="max_execution_time" value="160"/>
+        <ini name="max_file_uploads" value="256"/>
+        <ini name="memory_limit" value="1024M"/>
+    </php>
+</phpunit>

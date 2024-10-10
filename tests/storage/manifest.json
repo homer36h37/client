@@ -1,0 +1,10 @@
+{
+    "version": "2.1.2",
+    "files": [
+        {
+            "file": "application/default/TestController.php",
+            "mode": "copy"
+        }
+    ],
+    "requirements": ["php:5.5", "php5-ext:curl"]
+}
